@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "agent": "orquestador",
+  "permissions": {
+    "allow": [
+      "Read(../IA/**)",
+      "Bash(git status:*)",
+      "Bash(git diff:*)",
+      "Bash(git log:*)",
+      "Bash(git branch:*)",
+      "Bash(git switch:*)",
+      "Bash(git checkout -b:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)"
+    ],
+    "deny": [
+      "Bash(git push --force:*)",
+      "Read(.env)",
+      "Read(.env.*)"
+    ],
+    "additionalDirectories": ["../IA"]
+  },
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "cat \"$CLAUDE_PROJECT_DIR/.ai/STATE.md\" 2>/dev/null || echo 'Sin .ai/STATE.md'"
+          }
+        ]
+      }
+    ]
+  }
+}
