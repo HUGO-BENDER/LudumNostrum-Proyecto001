@@ -6,7 +6,7 @@
 
 ## Último hecho
 
-Proyecto creado desde el framework LudumNostrum IA v1.0.0.
+Issue 0001 (Step001 · Proyecto React + Vite) cerrado: app React + Vite + TS en la raíz, oxlint, Vitest con un test de `App`. Verificado por tester y confirmado visualmente por el usuario.
 
 ## Bloqueos
 
@@ -14,4 +14,4 @@ Ninguno.
 
 ## Siguiente paso
 
-Revisar y aprobar el issue [0001-setup-inicial](issues/0001-setup-inicial.md) (`draft`): definir visión, stack y estructura base.
+Definir con el usuario el siguiente issue (Step002).
