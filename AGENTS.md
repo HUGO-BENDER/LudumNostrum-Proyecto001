@@ -27,10 +27,11 @@ Reglas: cada archivo tiene un único dueño que escribe; si no está en `.ai/`, 
 ## Comandos
 
 <!-- Se completan en el issue de setup. Mantener actualizados. -->
-- Instalar: _pendiente_
-- Build: _pendiente_
-- Tests: _pendiente_
-- Lint/format: _pendiente_
+- Instalar: `npm install`
+- Dev: `npm run dev` (http://localhost:5173)
+- Build: `npm run build`
+- Tests: `npm test` (Vitest)
+- Lint: `npm run lint` (oxlint)
 
 ## Estándares comunes
 

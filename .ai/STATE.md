@@ -1,12 +1,12 @@
 # Estado — Proyecto001
 
 - **Actualizado:** 2026-10-05
-- **Issue activo:** [0001-step001-react-vite](issues/0001-step001-react-vite.md) (`in-progress`)
-- **Rama:** issue/0001-step001-react-vite
+- **Issue activo:** ninguno
+- **Rama:** main
 
 ## Último hecho
 
-Issue 0001 reescrito como Step001 (React + Vite + TS, ESLint, Vitest). ADR-0001 con el stack.
+Issue 0001 (Step001 · Proyecto React + Vite) cerrado: app React + Vite + TS en la raíz, oxlint, Vitest con un test de `App`. Verificado por tester y confirmado visualmente por el usuario.
 
 ## Bloqueos
 
@@ -14,4 +14,4 @@ Ninguno.
 
 ## Siguiente paso
 
-Developer implementando el issue 0001.
+Definir con el usuario el siguiente issue (Step002).
