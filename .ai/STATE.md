@@ -1,12 +1,12 @@
 # Estado — Proyecto001
 
 - **Actualizado:** 2026-10-05
-- **Issue activo:** ninguno
-- **Rama:** main
+- **Issue activo:** [0001-step001-react-vite](issues/0001-step001-react-vite.md) (`in-progress`)
+- **Rama:** issue/0001-step001-react-vite
 
 ## Último hecho
 
-Proyecto creado desde el framework LudumNostrum IA v1.0.0.
+Issue 0001 reescrito como Step001 (React + Vite + TS, ESLint, Vitest). ADR-0001 con el stack.
 
 ## Bloqueos
 
@@ -14,4 +14,4 @@ Ninguno.
 
 ## Siguiente paso
 
-Revisar y aprobar el issue [0001-setup-inicial](issues/0001-setup-inicial.md) (`draft`): definir visión, stack y estructura base.
+Developer implementando el issue 0001.
